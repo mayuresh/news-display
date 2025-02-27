@@ -1,0 +1,19 @@
+{
+  "name": "news-display",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "init-db": "node backend/scripts/initFeeds.js",
+    "test-feeds": "node backend/scripts/testFeeds.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.0",
+    "cors": "^2.8.5",
+    "rss-parser": "^3.12.0",
+    "dotenv": "^16.0.0"
+  }
+} 
